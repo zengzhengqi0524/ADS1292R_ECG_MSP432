@@ -1,0 +1,17 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\main.o"
+"..\Lib\driverlib\MSP432P4xx\keil\msp432p4xx_driverlib.lib"
+".\objects\ads1292r.o"
+".\objects\ecg_process.o"
+".\objects\key.o"
+".\objects\mygpio.o"
+".\objects\myspi.o"
+".\objects\system_msp432p401r.o"
+".\objects\startup_msp432p401r_uvision.o"
+".\objects\mydelay.o"
+".\objects\myusart.o"
+".\objects\mysysclk.o"
+--library_type=microlib --strict --scatter ".\Objects\TS_msp432.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\TS_msp432.map" -o .\Objects\TS_msp432.axf

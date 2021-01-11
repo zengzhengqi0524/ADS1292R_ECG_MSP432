@@ -1,0 +1,12 @@
+.\objects\system_msp432p401r.o: RTE\Device\MSP432P401R\system_msp432p401r.c
+.\objects\system_msp432p401r.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_msp432p401r.o: ..\Lib\inc\msp.h
+.\objects\system_msp432p401r.o: ..\Lib\inc\msp432p401r.h
+.\objects\system_msp432p401r.o: ..\Lib\inc\msp_compatibility.h
+.\objects\system_msp432p401r.o: ..\Lib\inc\msp432p401r_classic.h
+.\objects\system_msp432p401r.o: ..\Lib\inc\CMSIS\core_cm4.h
+.\objects\system_msp432p401r.o: ..\Lib\inc\CMSIS\core_cmInstr.h
+.\objects\system_msp432p401r.o: ..\Lib\inc\CMSIS\cmsis_armcc.h
+.\objects\system_msp432p401r.o: ..\Lib\inc\CMSIS\core_cmFunc.h
+.\objects\system_msp432p401r.o: ..\Lib\inc\CMSIS\core_cmSimd.h
+.\objects\system_msp432p401r.o: ..\Lib\inc\system_msp432p401r.h
